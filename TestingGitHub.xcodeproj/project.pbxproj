@@ -14,6 +14,9 @@
 		BE3636A92C40D0510068F5D8 /* TestingGitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3636A82C40D0510068F5D8 /* TestingGitHubTests.swift */; };
 		BE3636B32C40D0510068F5D8 /* TestingGitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3636B22C40D0510068F5D8 /* TestingGitHubUITests.swift */; };
 		BE3636B52C40D0510068F5D8 /* TestingGitHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3636B42C40D0510068F5D8 /* TestingGitHubUITestsLaunchTests.swift */; };
+		BE3636C22C40D29C0068F5D8 /* LearnerDatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3636C12C40D29C0068F5D8 /* LearnerDatabaseProtocol.swift */; };
+		BE3636C42C40D3150068F5D8 /* SampleLearnerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3636C32C40D3150068F5D8 /* SampleLearnerViewModel.swift */; };
+		BE3636C62C40D38C0068F5D8 /* WorkingLearnerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3636C52C40D38C0068F5D8 /* WorkingLearnerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		BE3636AE2C40D0510068F5D8 /* TestingGitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingGitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3636B22C40D0510068F5D8 /* TestingGitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingGitHubUITests.swift; sourceTree = "<group>"; };
 		BE3636B42C40D0510068F5D8 /* TestingGitHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingGitHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE3636C12C40D29C0068F5D8 /* LearnerDatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerDatabaseProtocol.swift; sourceTree = "<group>"; };
+		BE3636C32C40D3150068F5D8 /* SampleLearnerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLearnerViewModel.swift; sourceTree = "<group>"; };
+		BE3636C52C40D38C0068F5D8 /* WorkingLearnerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingLearnerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				BE3636962C40D04F0068F5D8 /* TestingGitHub */,
-				BE3636A72C40D0510068F5D8 /* TestingGitHubTests */,
-				BE3636B12C40D0510068F5D8 /* TestingGitHubUITests */,
 				BE3636952C40D04F0068F5D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +99,12 @@
 			isa = PBXGroup;
 			children = (
 				BE3636972C40D04F0068F5D8 /* TestingGitHubApp.swift */,
+				BE3636C12C40D29C0068F5D8 /* LearnerDatabaseProtocol.swift */,
+				BE3636C32C40D3150068F5D8 /* SampleLearnerViewModel.swift */,
+				BE3636C52C40D38C0068F5D8 /* WorkingLearnerViewModel.swift */,
 				BE3636992C40D04F0068F5D8 /* ContentView.swift */,
+				BE3636B12C40D0510068F5D8 /* TestingGitHubUITests */,
+				BE3636A72C40D0510068F5D8 /* TestingGitHubTests */,
 				BE36369B2C40D0500068F5D8 /* Assets.xcassets */,
 				BE36369D2C40D0500068F5D8 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3636C22C40D29C0068F5D8 /* LearnerDatabaseProtocol.swift in Sources */,
 				BE36369A2C40D04F0068F5D8 /* ContentView.swift in Sources */,
 				BE3636982C40D04F0068F5D8 /* TestingGitHubApp.swift in Sources */,
+				BE3636C42C40D3150068F5D8 /* SampleLearnerViewModel.swift in Sources */,
+				BE3636C62C40D38C0068F5D8 /* WorkingLearnerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
