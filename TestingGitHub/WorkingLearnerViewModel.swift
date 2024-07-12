@@ -9,10 +9,13 @@ import Foundation
 
 class WorkingLearnerViewModel: LearnerDatabaseProtocol{
     func getLearnerById(id: Int) -> Bool {
-        return true
+        // code baru
+        print("This is new code")
+        return false
     }
     
     func editLearnerById(id: Int) -> Bool {
-        return true
+        print("Kode Roland")
+        return false
     }
 }
