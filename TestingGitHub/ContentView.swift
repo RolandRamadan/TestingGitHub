@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    var viewModel: LearnerDatabaseProtocol = SampleLearnerViewModel()
+    var viewModel: LearnerDatabaseProtocol = WorkingLearnerViewModel()
     
     var body: some View {
         Button {
-            let success = viewModel.editLearnerById(id: 100)
+            _ = viewModel.editLearnerById(id: 100)
         } label: {
             Text("Tap")
         }
