@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var viewModel: LearnerDatabaseProtocol = WorkingLearnerViewModel()
-    
+    //testing comment
     var body: some View {
         Button {
             _ = viewModel.editLearnerById(id: 100)
